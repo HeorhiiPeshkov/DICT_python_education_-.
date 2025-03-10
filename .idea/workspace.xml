@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/markdown_editor/output.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/dinnerparty" />
+        <entry key="$PROJECT_DIR$" value="feature/tictactoe" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,11 +43,12 @@
     "Python.aid.executor": "Run",
     "Python.arithmetic_test.executor": "Run",
     "Python.markdown.executor": "Run",
+    "Python.markdown_editor.executor": "Run",
     "Python.rock_paper_scissors.executor": "Run",
     "Python.simplified_markdown_editor.executor": "Run",
     "Python.tictactoe.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tictactoe"
+    "git-widget-placeholder": "feature/markdown__editor"
   }
 }]]></component>
   <component name="SharedIndexes">
