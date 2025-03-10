@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hangman/hangman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scissors.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +31,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="ProjectColorInfo">
+    <option name="associatedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="2smClIUl4mC2D5fRTDrQo6VgtAU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,17 +41,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.aid.executor": "Run",
-    "Python.arithmetic_test.executor": "Run",
-    "Python.markdown.executor": "Run",
-    "Python.rock_paper_scissors.executor": "Run",
-    "Python.simplified_markdown_editor.executor": "Run",
-    "Python.tictactoe.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/tictactoe"
-  }
-}]]></component>
+    "keyToString": {
+      "Python.aid.executor": "Run",
+      "Python.arithmetic_test.executor": "Run",
+      "Python.markdown.executor": "Run",
+      "Python.rock_paper_scissors.executor": "Run",
+      "Python.simplified_markdown_editor.executor": "Run",
+      "Python.tictactoe.executor": "Run",
+      "RunOnceActivity.ShowReadmeOnStart": "true",
+      "git-widget-placeholder": "feature/hangman"
+    }
+  }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
