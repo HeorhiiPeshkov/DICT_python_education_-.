@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markdown_editor/output.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_editor/output.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_editor/output.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.aid.executor": "Run",
-    "Python.arithmetic_test.executor": "Run",
-    "Python.markdown.executor": "Run",
-    "Python.markdown_editor.executor": "Run",
-    "Python.rock_paper_scissors.executor": "Run",
-    "Python.simplified_markdown_editor.executor": "Run",
-    "Python.tictactoe.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/markdown__editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.aid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arithmetic_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pract1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rock_paper_scissors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simplified_markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tictactoe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/markdown__editor&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -17,20 +17,16 @@ def inline_code(text):
     return f"`{text}`"
 
 def header(text, level):
-    if 1 <= level <= 6:
-        return f"{'#' * level} {text}\n"
-    else:
-        print("Choose a level between 1 and 6.")
-        return ""
+    return f"\n{'#' * level} {text}\n" if 1 <= level <= 6 else ""
 
 def link(label, url):
     return f"[{label}]({url})"
 
 def ordered_list(items):
-    return "\n".join(f"{i + 1}. {item}" for i, item in enumerate(items)) + "\n"
+    return "\n" + "\n".join(f"{i + 1}. {item}" for i, item in enumerate(items)) + "\n"
 
 def unordered_list(items):
-    return "\n".join(f"* {item}" for item in items) + "\n"
+    return "\n" + "\n".join(f"* {item}" for item in items) + "\n"
 
 def show_help():
     print("Available formatters:", ", ".join(formatters))
@@ -44,29 +40,34 @@ while True:
         elif chafo == "!done":
             with open("output.md", "w") as file:
                 file.write(mct)
-            print("Final markdown:\n", mct)
+            print(mct)
             break
     elif chafo in formatters:
         if chafo == 'plain':
             users_txt = input('Text: ')
-            mct += plain(users_txt)
+            mct += "\n" + plain(users_txt)
         elif chafo == 'bold':
             users_txt = input('Text: ')
-            mct += bold(users_txt)
+            mct += "\n" + bold(users_txt)
         elif chafo == 'italic':
             users_txt = input('Text: ')
-            mct += italic(users_txt)
+            mct += "\n" + italic(users_txt)
         elif chafo == 'header':
-            level = int(input('Level: '))
+            while True:
+                try:
+                    level = int(input('Level: '))
+                    break
+                except ValueError:
+                    print("Invalid input. Please enter a number between 1 and 6.")
             users_txt = input('Text: ')
             mct += header(users_txt, level)
         elif chafo == 'link':
             label = input('Label: ')
             url = input('URL: ')
-            mct += link(label, url)
+            mct += "\n" + link(label, url)
         elif chafo == 'inline-code':
             users_txt = input('Text: ')
-            mct += inline_code(users_txt)
+            mct += "\n" + inline_code(users_txt)
         elif chafo == 'ordered-list':
             num_items = int(input('Number of rows: '))
             if num_items > 0:
