@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="" />
+    <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="feature/tictactoe" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,8 +39,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.aid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arithmetic_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pract1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rock_paper_scissors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simplified_markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tictactoe.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/zoo&quot;
+    &quot;git-widget-placeholder&quot;: &quot;feature/markdown__editor&quot;
   }
 }</component>
   <component name="SharedIndexes">
