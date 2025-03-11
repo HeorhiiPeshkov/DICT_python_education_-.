@@ -7,7 +7,6 @@
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_editor/markdown_editor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown_editor/output.md" beforeDir="false" afterPath="$PROJECT_DIR$/markdown_editor/output.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

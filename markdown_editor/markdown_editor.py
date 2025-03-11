@@ -56,7 +56,10 @@ while True:
             while True:
                 try:
                     level = int(input('Level: '))
-                    break
+                    if 1 <= level <= 6:
+                        break
+                    else:
+                        print("Level should be between 1 and 6.")
                 except ValueError:
                     print("Invalid input. Please enter a number between 1 and 6.")
             users_txt = input('Text: ')
@@ -69,21 +72,30 @@ while True:
             users_txt = input('Text: ')
             mct += "\n" + inline_code(users_txt)
         elif chafo == 'ordered-list':
-            num_items = int(input('Number of rows: '))
-            if num_items > 0:
-                items = [input(f'Row #{i + 1}: ') for i in range(num_items)]
-                mct += ordered_list(items)
-            else:
-                print("The number of rows should be greater than zero.")
-                continue
+            while True:
+                try:
+                    num_items = int(input('Number of rows: '))
+                    if num_items > 0:
+                        items = [input(f'Row #{i + 1}: ') for i in range(num_items)]
+                        mct += ordered_list(items)
+                        break
+                    else:
+                        print("The number of rows should be greater than zero.")
+                except ValueError:
+                    print("Invalid input. Please enter a number.")
         elif chafo == 'unordered-list':
-            num_items = int(input('Number of rows: '))
-            if num_items > 0:
-                items = [input(f'Row #{i + 1}: ') for i in range(num_items)]
-                mct += unordered_list(items)
-            else:
-                print("The number of rows should be greater than zero.")
-                continue
+            while True:
+                try:
+                    num_items = int(input('Number of rows: '))
+                    if num_items > 0:
+                        items = [input(f'Row #{i + 1}: ') for i in range(num_items)]
+                        mct += unordered_list(items)
+                        break
+                    else:
+                        print("The number of rows should be greater than zero.")
+                except ValueError:
+                    print("Invalid input. Please enter a number.")
+
         elif chafo == 'new-line':
             mct += "\n"
         print(mct)
