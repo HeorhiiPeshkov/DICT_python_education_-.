@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dinnerparty/practica2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic_test/arithmetic_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic_test/arithmetic_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/tictactoe" />
+        <entry key="$PROJECT_DIR$" value="feature/markdown_editor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +49,7 @@
     "Python.simplified_markdown_editor.executor": "Run",
     "Python.tictactoe.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/markdown__editor"
+    "git-widget-placeholder": "feature/arithmetic__test"
   }
 }]]></component>
   <component name="SharedIndexes">

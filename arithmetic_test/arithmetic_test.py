@@ -1,6 +1,6 @@
 import random
-
 print('Hello user!')
+
 
 while True:
     mode = input('What difficult mode you want:\nIf you want easy mode type 1\nIf you want hard mode type 2\n>')
@@ -28,6 +28,7 @@ while True:
                     print("Incorrect parameters")
             print(f'Your mark is {correct_answers}/5.')
 
+
     elif mode == '2':
         correct_answers = 0
         for _ in range(5):
@@ -49,6 +50,7 @@ while True:
                     print('Incorrect format.')
             print(f'Your mark is {correct_answers}/5.')
 
+
         results = input('Would you like to save your result to file? Enter yes or no\n>')
         if results.lower() in ['yes', 'y']:
             u_name = input('Put down your name:\n>')
@@ -57,11 +59,9 @@ while True:
                 file.write(results_txt)
             print(results_txt)
             break
-        elif results.lower() in ['no', 'n']:
-            break
         else:
-            print("Invalid input")
-            continue
+            break
+
 
     else:
         print("Invalid mode. Please enter 1 or 2.")
