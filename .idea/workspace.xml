@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/arithmetic_test/ueee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arithmetic_test/arithmetic_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic_test/arithmetic_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,21 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.aid.executor": "Run",
-    "Python.arithmetic_test.executor": "Run",
-    "Python.markdown.executor": "Run",
-    "Python.markdown_editor.executor": "Run",
-    "Python.pract1.executor": "Run",
-    "Python.practica2.executor": "Run",
-    "Python.rock_paper_scissors.executor": "Run",
-    "Python.simplified_markdown_editor.executor": "Run",
-    "Python.tictactoe.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/arithmetic__test"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.aid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arithmetic_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pract1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practica2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rock_paper_scissors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simplified_markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tictactoe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ueee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ueeee.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/arithmetic__test&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
