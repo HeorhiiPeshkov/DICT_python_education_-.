@@ -7,6 +7,10 @@
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arithmetic_test/arithmetic_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic_test/arithmetic_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hangman/hangman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scissors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,33 +32,27 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="ProjectColorInfo">
+    <option name="associatedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="2smClIUl4mC2D5fRTDrQo6VgtAU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.aid.executor&quot;: &quot;Run&quot;,
-    &quot;Python.arithmetic_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.markdown.executor&quot;: &quot;Run&quot;,
-    &quot;Python.markdown_editor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pract1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practica2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rock_paper_scissors.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simplified_markdown_editor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tictactoe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ueee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ueeee.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/arithmetic__test&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <map>
+      <entry key="Python.aid.executor" value="Run" />
+      <entry key="Python.arithmetic_test.executor" value="Run" />
+      <entry key="Python.markdown.executor" value="Run" />
+      <entry key="Python.rock_paper_scissors.executor" value="Run" />
+      <entry key="Python.simplified_markdown_editor.executor" value="Run" />
+      <entry key="Python.tictactoe.executor" value="Run" />
+      <entry key="RunOnceActivity.ShowReadmeOnStart" value="true" />
+      <entry key="git-widget-placeholder" value="feature/hangman" />
+    </map>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
