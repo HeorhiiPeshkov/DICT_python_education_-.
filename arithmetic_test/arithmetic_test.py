@@ -7,30 +7,34 @@ def generate(level):
         number_2 = random.randint(2, 9)
         operation = random.choice(['*', '-', '+'])
         example_1 = f'{number_1} {operation} {number_2}'
-        print(example_1)
+        return example_1, eval(example_1)
 
 
     elif level == 2:
         number = random.randint(11, 29)
         example_2 = f'{number}^2'
-        print(example_2)
+        return example_2, number**2
 
 
 def test_running(level):
     correct_answers = 0
     for _ in range(5):
+        question, correct_answer = generate(level)
+        print(f'{question}')
         while True:
             try:
-                answer = input('> ')
-                if answer.isdigit():
-                    if int(answer) == correct_answers:
+                answer = input('> ').strip()
+                if answer.lstrip('-').isdigit():
+                    if int(answer) == correct_answer:
                         print('Right!')
                         correct_answers += 1
                     else:
                         print('Wrong!')
                     break
-            except ValueError:
+                else:
                     print('Incorrect format. Please enter a valid number.')
+            except ValueError:
+                print('Incorrect format. Please enter a valid number.')
     print(f'Your mark is {correct_answers}/5.')
     return correct_answers
 
@@ -57,7 +61,7 @@ def main():
         try:
             level = int(input('Choose difficulty mode:\n1 - Easy\n2 - Hard\n> ').strip())
             if level in [1, 2]:
-                correct_answers = test_running(level)
+                correct_answer = test_running(level)
                 break
             else:
                 print('Invalid input. Please enter 1 or 2.')
