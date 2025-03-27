@@ -6,27 +6,23 @@ if users_name == "!done":
     print("Bye!")
     exit() #break нельзя использовать вне цикла
 print(f'Hello {users_name}!')
-basic_game_options = ['paper', 'rock', 'scissors', 'lizard', 'spock', 'gun', 'lightning', 'devil', 'dragon', 'water', 'snake', 'fire', 'air', 'sponge', 'wolf', 'tree', 'human']
-players_chosen_options = []
+basic_game_options = ['paper', 'rock', 'scissors']
+possible_game_options = ['paper', 'rock', 'scissors', 'lizard', 'spock', 'gun', 'lightning', 'devil', 'dragon', 'water', 'snake', 'fire', 'air', 'sponge', 'wolf', 'tree', 'human']
 
 
 def player_chosen_options():
-    global players_chosen_options
     while True:
         options = input('What options do you want to play with? Enter options separated by commas. If you want default, press Enter:').strip()
-        options = [options.strip().lower() for options in options if options.strip()]
         if options == "!done":
             print('Bye!')
             exit()
         if not options:
-            players_chosen_options = basic_game_options
-            break
+            return basic_game_options
+        options = [opt.strip().lower() for opt in options.split(',') if opt.strip()]
         if len(options) < 3:
             print('Invalid input. Enter at least three options!')
             continue
-        players_chosen_options = sorted(set(options))
-        break
-    return players_chosen_options
+        return sorted(set(options))
 
 
 def get_user_score(name, filename="rating.txt"):
@@ -56,10 +52,9 @@ def update_user_score(name, score, filename="rating.txt"):
             file.write(f"{player} {points}\n")
 
 
-def determine_winner(user_choice, computer_choice):
+def determine_winner(user_choice, computer_choice, choices):
     if user_choice == computer_choice:
         return 'draw'
-    choices = players_chosen_options
     users_index = choices.index(user_choice)
     computers_index = choices.index(computer_choice)
     half = len(choices) // 2
@@ -70,10 +65,10 @@ def determine_winner(user_choice, computer_choice):
 
 
 def gameplay():
-    global players_chosen_options
+    players_chosen_options = player_chosen_options()
+    score = get_user_score(users_name)
     while True:
         users_option = input('Choose option: ').strip().lower()
-        score = get_user_score(users_name)
         if users_option == '!done':
             print(f'Bye! Your score is {score}')
             update_user_score(users_name, score)
@@ -87,7 +82,7 @@ def gameplay():
             print(f'Invalid input. {users_option} not in game list')
             continue
         computer_chosen_option = random.choice(players_chosen_options)
-        result = determine_winner(users_option, computer_chosen_option)
+        result = determine_winner(users_option, computer_chosen_option, players_chosen_options)
         if result == "draw":
             print(f'Draw! Computer chose {computer_chosen_option}.')
             score += 50
@@ -99,5 +94,4 @@ def gameplay():
         update_user_score(users_name, score)
 
 
-player_chosen_options()
 gameplay()
