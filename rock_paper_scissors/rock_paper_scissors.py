@@ -13,7 +13,7 @@ possible_game_options = ['paper', 'rock', 'scissors', 'lizard', 'spock', 'gun', 
 def player_chosen_options():
     while True:
         options = input('What options do you want to play with? Enter options separated by commas. If you want default, press Enter:').strip()
-        if options == "!done":
+        if options.lower() == "!done":
             print('Bye!')
             exit()
         if not options:
@@ -22,7 +22,7 @@ def player_chosen_options():
         if len(options) < 3:
             print('Invalid input. Enter at least three options!')
             continue
-        return sorted(set(options))
+        return options
 
 
 def get_user_score(name, filename="rating.txt"):
@@ -58,7 +58,7 @@ def determine_winner(user_choice, computer_choice, choices):
     users_index = choices.index(user_choice)
     computers_index = choices.index(computer_choice)
     half = len(choices) // 2
-    if(computers_index - users_index) % len(choices) <= half:
+    if(users_index - computers_index) % len(choices) <= half:
         return "win"
     else:
         return "lose"
