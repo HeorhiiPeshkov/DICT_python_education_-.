@@ -10,6 +10,8 @@
       <change afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rock_paper_scissors/rating.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissors/rating.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scissors.py" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scissors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/dinnerparty" />
+        <entry key="$PROJECT_DIR$" value="feature/arithmetic_test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
