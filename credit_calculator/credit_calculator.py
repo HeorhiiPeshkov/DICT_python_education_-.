@@ -42,10 +42,13 @@ def differentiated_payments(principal, periods, interest):
     a = interest / (12 * 100)
     total_payment = 0
     for f in range(1, periods + 1):
-        diff_payment = math.ceil(principal / periods + a * (principal - principal * (f -1)) / periods)
+        diff_payment = math.ceil(principal / periods + a * (principal - (principal * (f -1) / periods)))
         print(f'Month {f}: payment is {diff_payment}')
         total_payment += diff_payment
-    return total_payment - principal
+    overpayment = total_payment - principal
+    if overpayment < 0:
+        overpayment = 0
+    return overpayment
 
 
 def main():
@@ -54,7 +57,7 @@ def main():
     parser.add_argument('--payment', type=float)
     parser.add_argument('--principal', type=float)
     parser.add_argument('--periods', type=int)
-    parser.add_argument('--interest', type=float, required=True)
+    parser.add_argument('--interest', type=float)
     args = parser.parse_args()
 
     parameters = [args.payment, args.principal,args.periods, args.interest]
@@ -66,6 +69,9 @@ def main():
         if args.principal is None or args.periods is None or args.payment is not None:
             print('Incorrect parameters')
             return
+        else:
+            overpayment = differentiated_payments(args.principal, args.periods, args.interest)
+            print(f'Overpayment = {int(overpayment)}')
         overpayment = differentiated_payments(args.principal, args.periods, args.interest)
         print(f'Overpayment = {int(overpayment)}')
         return
@@ -85,6 +91,10 @@ def main():
             payment = annuity_monthly_payment(args.principal, args.periods, args.interest)
             print(f'Your annuity payment = {payment}')
             print(f'Overpayment = {payment * args.periods - args.principal:.0f}')
+
+        elif args.interest is None:
+            print('Incorrect parameters')
+            return
 
         elif args.periods is None:
             months = number_of_month(args.principal, args.payment, args.interest)
