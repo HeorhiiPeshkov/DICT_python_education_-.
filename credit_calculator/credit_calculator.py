@@ -26,23 +26,23 @@ def annuity_monthly_payment(principal, periods, interest):
 
 
 def loan_principal(payment, periods, interest):
-    b = interest / (12 * 100)
-    principal = payment / ((b * (1 + b) ** periods) / ((1 + b) ** periods - 1))
+    a = interest / (12 * 100)
+    principal = payment / ((a * (1 + a) ** periods) / ((1 + a) ** periods - 1))
     return math.floor(principal)
 
 
 def number_of_month(principal, payment, interest):
-    c = interest / (12 * 100)
-    d = math.log(payment / (payment - c * principal), 1 + c)
-    months = math.ceil(d)
+    a = interest / (12 * 100)
+    b = math.log(payment / (payment - a * principal), 1 + a)
+    months = math.ceil(b)
     return months
 
 
 def differentiated_payments(principal, periods, interest):
-    e = interest / (12 * 100)
+    a = interest / (12 * 100)
     total_payment = 0
     for f in range(1, periods + 1):
-        diff_payment = math.ceil(principal / periods + e * (principal - principal * (f -1)) / periods)
+        diff_payment = math.ceil(principal / periods + a * (principal - principal * (f -1)) / periods)
         print(f'Month {f}: payment is {diff_payment}')
         total_payment += diff_payment
     return total_payment - principal
@@ -56,19 +56,36 @@ def main():
     parser.add_argument('--periods', type=int)
     parser.add_argument('--interest', type=float, required=True)
     args = parser.parse_args()
+
     parameters = [args.payment, args.principal,args.periods, args.interest]
     if any(p is not None and p < 0 for p in parameters):
         print('Incorrect parameters')
         return
-    if args.type == 'annuity':
-        if args.payment is None:
-            payment = annuity_monthly_payment(args.principal, args.periods, args.interest)
-            print(f'Your annuity payment = {payment}')
-            print(f'Overpayment = {payment * args.periods - args.principal:.0f}')
-        elif args.principal is None:
+
+    if args.type == 'diff':
+        if args.principal is None or args.periods is None or args.payment is not None:
+            print('Incorrect parameters')
+            return
+        overpayment = differentiated_payments(args.principal, args.periods, args.interest)
+        print(f'Overpayment = {int(overpayment)}')
+        return
+
+    elif args.type == 'annuity':
+        non_none = [args.payment, args.principal, args.periods]
+        if non_none.count(None) != 1:
+            print('Incorrect parameters')
+            return
+
+        if args.principal is None:
             principal = loan_principal(args.payment, args.periods, args.interest)
             print(f'Your loan principal = {principal}')
             print(f'Overpayment = {args.payment * args.periods - principal:.0f}')
+
+        elif args.payment is None:
+            payment = annuity_monthly_payment(args.principal, args.periods, args.interest)
+            print(f'Your annuity payment = {payment}')
+            print(f'Overpayment = {payment * args.periods - args.principal:.0f}')
+
         elif args.periods is None:
             months = number_of_month(args.principal, args.payment, args.interest)
             years, rem_months = divmod(months, 12)
@@ -77,19 +94,11 @@ def main():
                 time_output.append(f"{years} year{'s' if years > 1 else ''}")
             if rem_months:
                 time_output.append(f"{rem_months} month{'s' if rem_months > 1 else ''}")
-            print(f'It will take {' and '.join(time_output)} to repay this loan')
+            print(f"It will take {' and '.join(time_output)} to repay this loan")
             print(f'Overpayment = {args.payment * months - args.principal:.0f}')
-    elif args.type == 'diff':
-        if args.payment is not None:
-            print('Incorrect parameters')
-            return
-        if args.principal is not None and args.periods is not None:
-            overpayment = differentiated_payments(args.principal, args.periods, args.interest)
-            print(f'Overpayment = {int(overpayment)}')
         else:
             print('Incorrect parameters')
-    else:
-        print('Incorrect parameters')
+            return
 
 
 if __name__ == '__main__':
