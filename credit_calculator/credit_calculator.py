@@ -65,13 +65,14 @@ def main():
         print('Incorrect parameters')
         return
 
+    if args.interest is None:
+        print('Incorrect parameters')
+        return
+
     if args.type == 'diff':
         if args.principal is None or args.periods is None or args.payment is not None:
             print('Incorrect parameters')
             return
-        else:
-            overpayment = differentiated_payments(args.principal, args.periods, args.interest)
-            print(f'Overpayment = {int(overpayment)}')
         overpayment = differentiated_payments(args.principal, args.periods, args.interest)
         print(f'Overpayment = {int(overpayment)}')
         return
@@ -85,16 +86,12 @@ def main():
         if args.principal is None:
             principal = loan_principal(args.payment, args.periods, args.interest)
             print(f'Your loan principal = {principal}')
-            print(f'Overpayment = {args.payment * args.periods - principal:.0f}')
+            print(f'Overpayment = {int(args.payment * args.periods - args.principal)}')
 
         elif args.payment is None:
             payment = annuity_monthly_payment(args.principal, args.periods, args.interest)
             print(f'Your annuity payment = {payment}')
-            print(f'Overpayment = {payment * args.periods - args.principal:.0f}')
-
-        elif args.interest is None:
-            print('Incorrect parameters')
-            return
+            print(f'Overpayment = {int(payment * args.periods - args.principal)}')
 
         elif args.periods is None:
             months = number_of_month(args.principal, args.payment, args.interest)
@@ -106,9 +103,9 @@ def main():
                 time_output.append(f"{rem_months} month{'s' if rem_months > 1 else ''}")
             print(f"It will take {' and '.join(time_output)} to repay this loan")
             print(f'Overpayment = {args.payment * months - args.principal:.0f}')
-        else:
-            print('Incorrect parameters')
-            return
+    else:
+        print('Incorrect parameters')
+        return
 
 
 if __name__ == '__main__':
