@@ -53,7 +53,7 @@ def differentiated_payments(principal, periods, interest):
 
 def main():
     parser = argparse.ArgumentParser(description='Credit Calculator')
-    parser.add_argument('--type', choices=['annuity', 'diff'], required = True)
+    parser.add_argument('--type', choices=['annuity', 'diff'])
     parser.add_argument('--payment', type=float)
     parser.add_argument('--principal', type=float)
     parser.add_argument('--periods', type=int)
