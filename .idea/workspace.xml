@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hangman/hangman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scissors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicBand/musicband.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicBand/pytests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency_exhange/currency_exchange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_page_scraper/web_page_scraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock_paper_scissors/rating.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissors/rating.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scissors.py" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissors/rock_paper_scissors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Band/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicBand/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Band/generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Band/test_band.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Band/test_bandgenerator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Band/the_bands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/massives/MusicBandMassive.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +32,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/arithmetic_test" />
+        <entry key="$PROJECT_DIR$" value="feature/credit_calculator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">
     <option name="associatedIndex" value="2" />
@@ -43,17 +50,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
-    "keyToString": {
-      "Python.aid.executor": "Run",
-      "Python.arithmetic_test.executor": "Run",
-      "Python.markdown.executor": "Run",
-      "Python.rock_paper_scissors.executor": "Run",
-      "Python.simplified_markdown_editor.executor": "Run",
-      "Python.tictactoe.executor": "Run",
-      "RunOnceActivity.ShowReadmeOnStart": "true",
-      "git-widget-placeholder": "feature/hangman"
-    }
-  }]]></component>
+  "keyToString": {
+    "Python.Band.executor": "Run",
+    "Python.MusicBandMassive.executor": "Run",
+    "Python.aid.executor": "Run",
+    "Python.arithmetic_test.executor": "Run",
+    "Python.credit_calculator.executor": "Run",
+    "Python.currency_exchange.executor": "Run",
+    "Python.markdown.executor": "Run",
+    "Python.markdown_editor.executor": "Run",
+    "Python.musicband.executor": "Run",
+    "Python.musician.executor": "Run",
+    "Python.pract1.executor": "Run",
+    "Python.practica2.executor": "Run",
+    "Python.prs.executor": "Run",
+    "Python.simplified_markdown_editor.executor": "Run",
+    "Python.uee.executor": "Run",
+    "Python.ueee.executor": "Run",
+    "Python.ueeee.executor": "Run",
+    "Python.web_page_scraper.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/web__page__scraper"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\NewPythonProject\credit_calculator" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,5 +95,16 @@
       <updated>1739051513036</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
