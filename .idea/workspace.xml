@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MusicBand/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MusicBand/musicband.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicBand/pytests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency_exhange/currency_exchange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_page_scraper/web_page_scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicBand/musicbandnode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicBand/musicbandpytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency_exhange/currency_exhange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dominoes/dominoes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Band/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MusicBand/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Band/generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Band/test_band.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Band/test_bandgenerator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Band/the_bands.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/massives/MusicBandMassive.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/credit_calculator" />
+        <entry key="$PROJECT_DIR$" value="feature/web_page_scraper" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,29 +46,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Band.executor": "Run",
-    "Python.MusicBandMassive.executor": "Run",
-    "Python.aid.executor": "Run",
-    "Python.arithmetic_test.executor": "Run",
-    "Python.credit_calculator.executor": "Run",
-    "Python.currency_exchange.executor": "Run",
-    "Python.markdown.executor": "Run",
-    "Python.markdown_editor.executor": "Run",
-    "Python.musicband.executor": "Run",
-    "Python.musician.executor": "Run",
-    "Python.pract1.executor": "Run",
-    "Python.practica2.executor": "Run",
-    "Python.prs.executor": "Run",
-    "Python.simplified_markdown_editor.executor": "Run",
-    "Python.uee.executor": "Run",
-    "Python.ueee.executor": "Run",
-    "Python.ueeee.executor": "Run",
-    "Python.web_page_scraper.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/web__page__scraper"
-  }
-}]]></component>
+    "keyToString": {
+      "Python tests.Python tests in musicbandpytest.py.executor": "Run",
+      "Python.Band.executor": "Run",
+      "Python.MusicBandMassive.executor": "Run",
+      "Python.aid.executor": "Run",
+      "Python.arithmetic_test.executor": "Run",
+      "Python.credit_calculator.executor": "Run",
+      "Python.currency_exchange.executor": "Run",
+      "Python.currency_exhange.executor": "Run",
+      "Python.dominoes.executor": "Run",
+      "Python.markdown.executor": "Run",
+      "Python.markdown_editor.executor": "Run",
+      "Python.musicband.executor": "Run",
+      "Python.musicbandnode.executor": "Run",
+      "Python.musician.executor": "Run",
+      "Python.pract1.executor": "Run",
+      "Python.practica2.executor": "Run",
+      "Python.prs.executor": "Run",
+      "Python.rock_paper_scissors.executor": "Run",
+      "Python.simplified_markdown_editor.executor": "Run",
+      "Python.tictactoe.executor": "Run",
+      "Python.uee.executor": "Run",
+      "Python.ueee.executor": "Run",
+      "Python.ueeee.executor": "Run",
+      "Python.web_page_scraper.executor": "Run",
+      "RunOnceActivity.ShowReadmeOnStart": "true",
+      "git-widget-placeholder": "feature/currency__exhange"
+    }
+  }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\NewPythonProject\credit_calculator" />
