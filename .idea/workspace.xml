@@ -36,9 +36,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="ProjectColorInfo">
+    <option name="associatedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="2smClIUl4mC2D5fRTDrQo6VgtAU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,35 +46,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in musicbandpytest.py.executor": "Run",
-    "Python.Band.executor": "Run",
-    "Python.MusicBandMassive.executor": "Run",
-    "Python.aid.executor": "Run",
-    "Python.arithmetic_test.executor": "Run",
-    "Python.credit_calculator.executor": "Run",
-    "Python.currency_exchange.executor": "Run",
-    "Python.currency_exhange.executor": "Run",
-    "Python.dominoes.executor": "Run",
-    "Python.markdown.executor": "Run",
-    "Python.markdown_editor.executor": "Run",
-    "Python.musicband.executor": "Run",
-    "Python.musicbandnode.executor": "Run",
-    "Python.musician.executor": "Run",
-    "Python.pract1.executor": "Run",
-    "Python.practica2.executor": "Run",
-    "Python.prs.executor": "Run",
-    "Python.rock_paper_scissors.executor": "Run",
-    "Python.simplified_markdown_editor.executor": "Run",
-    "Python.tictactoe.executor": "Run",
-    "Python.uee.executor": "Run",
-    "Python.ueee.executor": "Run",
-    "Python.ueeee.executor": "Run",
-    "Python.web_page_scraper.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/currency__exhange"
-  }
-}]]></component>
+    "keyToString": {
+      "Python tests.Python tests in musicbandpytest.py.executor": "Run",
+      "Python.Band.executor": "Run",
+      "Python.MusicBandMassive.executor": "Run",
+      "Python.aid.executor": "Run",
+      "Python.arithmetic_test.executor": "Run",
+      "Python.credit_calculator.executor": "Run",
+      "Python.currency_exchange.executor": "Run",
+      "Python.currency_exhange.executor": "Run",
+      "Python.dominoes.executor": "Run",
+      "Python.markdown.executor": "Run",
+      "Python.markdown_editor.executor": "Run",
+      "Python.musicband.executor": "Run",
+      "Python.musicbandnode.executor": "Run",
+      "Python.musician.executor": "Run",
+      "Python.pract1.executor": "Run",
+      "Python.practica2.executor": "Run",
+      "Python.prs.executor": "Run",
+      "Python.rock_paper_scissors.executor": "Run",
+      "Python.simplified_markdown_editor.executor": "Run",
+      "Python.tictactoe.executor": "Run",
+      "Python.uee.executor": "Run",
+      "Python.ueee.executor": "Run",
+      "Python.ueeee.executor": "Run",
+      "Python.web_page_scraper.executor": "Run",
+      "RunOnceActivity.ShowReadmeOnStart": "true",
+      "git-widget-placeholder": "feature/currency__exhange"
+    }
+  }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\NewPythonProject\credit_calculator" />
