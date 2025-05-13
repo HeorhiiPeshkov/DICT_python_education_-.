@@ -1,0 +1,4 @@
+Ya 500
+ya 950
+rock,gun,lightning,devil,dragon,water,air,paper,sponge 350
+ 0
