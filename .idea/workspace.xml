@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MusicBand/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicBand/musicband.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicBand/musicbandnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MusicBand/musicbandpytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency_exhange/currency_exhange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dominoes/dominoes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MusicBand/FindMusicBand.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking_system/banking_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/banking_system/banking_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking_system/card.s3db" beforeDir="false" afterPath="$PROJECT_DIR$/banking_system/card.s3db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/web_page_scraper" />
+        <entry key="$PROJECT_DIR$" value="feature/dominoes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,40 +42,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-    "keyToString": {
-      "Python tests.Python tests in musicbandpytest.py.executor": "Run",
-      "Python.Band.executor": "Run",
-      "Python.MusicBandMassive.executor": "Run",
-      "Python.aid.executor": "Run",
-      "Python.arithmetic_test.executor": "Run",
-      "Python.credit_calculator.executor": "Run",
-      "Python.currency_exchange.executor": "Run",
-      "Python.currency_exhange.executor": "Run",
-      "Python.dominoes.executor": "Run",
-      "Python.markdown.executor": "Run",
-      "Python.markdown_editor.executor": "Run",
-      "Python.musicband.executor": "Run",
-      "Python.musicbandnode.executor": "Run",
-      "Python.musician.executor": "Run",
-      "Python.pract1.executor": "Run",
-      "Python.practica2.executor": "Run",
-      "Python.prs.executor": "Run",
-      "Python.rock_paper_scissors.executor": "Run",
-      "Python.simplified_markdown_editor.executor": "Run",
-      "Python.tictactoe.executor": "Run",
-      "Python.uee.executor": "Run",
-      "Python.ueee.executor": "Run",
-      "Python.ueeee.executor": "Run",
-      "Python.web_page_scraper.executor": "Run",
-      "RunOnceActivity.ShowReadmeOnStart": "true",
-      "git-widget-placeholder": "feature/currency__exhange"
-    }
-  }]]></component>
+<component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in PytestMusicBandTree.py.executor": "Run",
+    "Python tests.Python tests in musicbandpytest.py.executor": "Run",
+    "Python tests.Python tests in pytestmusicband.py.executor": "Run",
+    "Python tests.Python tests in test_sort_music_band.py.executor": "Run",
+    "Python.Band.executor": "Run",
+    "Python.FindMusicBand.executor": "Run",
+    "Python.MusicBandMassive.executor": "Run",
+    "Python.MusicBandTree.executor": "Run",
+    "Python.aid.executor": "Run",
+    "Python.arithmetic_test.executor": "Run",
+    "Python.banking_system.executor": "Run",
+    "Python.credit_calculator.executor": "Run",
+    "Python.currency_exchange.executor": "Run",
+    "Python.currency_exhange.executor": "Run",
+    "Python.dominoes.executor": "Run",
+    "Python.findmusicband.executor": "Run",
+    "Python.markdown.executor": "Run",
+    "Python.markdown_editor.executor": "Run",
+    "Python.musicband.executor": "Run",
+    "Python.musicbandnode.executor": "Run",
+    "Python.musician.executor": "Run",
+    "Python.pract1.executor": "Run",
+    "Python.practica2.executor": "Run",
+    "Python.prs.executor": "Run",
+    "Python.pytestmusicband.executor": "Run",
+    "Python.rock_paper_scissors.executor": "Run",
+    "Python.simplified_markdown_editor.executor": "Run",
+    "Python.sort_music_band.executor": "Run",
+    "Python.tictactoe.executor": "Run",
+    "Python.uee.executor": "Run",
+    "Python.ueee.executor": "Run",
+    "Python.ueeee.executor": "Run",
+    "Python.web_page_scraper.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/banking__system"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\NewPythonProject\banking_system" />
       <recent name="C:\Users\USER\PycharmProjects\NewPythonProject\credit_calculator" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="banking_system" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NewPythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/banking_system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/banking_system/banking_system.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.banking_system" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
