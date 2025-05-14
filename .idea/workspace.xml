@@ -33,16 +33,16 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+  <component name="ProjectColorInfo">
+    <option name="associatedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="2smClIUl4mC2D5fRTDrQo6VgtAU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
+<component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests in PytestMusicBandTree.py.executor": "Run",
     "Python tests.Python tests in musicbandpytest.py.executor": "Run",
