@@ -75,6 +75,9 @@ def do_transfer(sender_number):
     if target == sender_number:
         print('You cant transfer money to the same account')
         return
+    if not target.isdigit():
+        print('Incorrect input')
+        return
     if not luhn_valid(target):
         print('Probably you made a mistake in the card number. Try again')
         return
