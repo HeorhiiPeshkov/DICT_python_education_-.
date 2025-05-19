@@ -22,6 +22,7 @@ commands = {
 
 def init():
     os.makedirs(COMMITS_DIR, exist_ok=True)
+    print(f'Initialized VCS in {os.path.abspath(COMMITS_DIR)}')
     for file in [CONFIG, INDEX, LOG]:
         if not os.path.exists(file):
             open(file, 'w').close()
@@ -58,15 +59,27 @@ def file_hash(name):
 
 
 def changes():
-    if not os.path.getsize(LOG):
+    if not os.path.exists(LOG) or not os.path.getsize(LOG):
         return True
     files = tracked_files()
-    last_commit = read(LOG).splitlines()[0].split()[1]
+    if not files:
+        return False
+    log_lines = read(LOG).splitlines()
+    if not log_lines:
+        return True
+    last_commit_line = next((line for line in log_lines if line.startswith('commit')), None)
+    if not last_commit_line:
+        return True
+    last_commit_id = last_commit_line.split()[-1]
+    last_commit_path = f'{COMMITS_DIR}/{last_commit_id}'
     for file in files:
-        old_file = f'{COMMITS_DIR}/{last_commit}/{file}'
-        if not os.path.exists(old_file) or file_hash(file) != file_hash(old_file):
+        old_file = f'{last_commit_path}/{file}'
+        if not os.path.exists(old_file):
+            return True
+        elif file_hash(file) != file_hash(old_file):
             return True
     return False
+
 
 
 def commit(message):
@@ -81,15 +94,23 @@ def commit(message):
         print('Type your username')
         return
     files = tracked_files()
+    if not files:
+        print('No files to commit')
+        return
     total_hash = ''.join([file_hash(file) for file in files])
     commit_user_id = hashlib.sha1(total_hash.encode()).hexdigest()
     commit_path = f'{COMMITS_DIR}/{commit_user_id}'
-    os.makedirs(commit_path)
-    for file in files:
-        shutil.copy(file, f'{commit_path}/{file}')
-    log_entry = f'commit {commit_user_id}\nAuthor: {username}\n{message}\n\n'
-    write(LOG, log_entry + read(LOG))
-    print('Changes are saved')
+    if not os.path.exists(commit_path):
+        os.makedirs(commit_path)
+        for file in files:
+            commit_file_path = os.path.join(commit_path, file)
+            os.makedirs(os.path.dirname(commit_file_path), exist_ok=True)
+            shutil.copy(file, commit_file_path)
+        log_entry = f'commit {commit_user_id}\nAuthor: {username}\n{message}\n\n'
+        write(LOG, log_entry + read(LOG))
+        print('Changes are saved')
+    else:
+        print('Commits already exist')
 
 
 def show_log():
@@ -105,8 +126,17 @@ def checkout(commit_user_id):
     if not os.path.exists(path):
         print('Commit not found')
         return
-    for file in os.listdir(path):
-        shutil.copy(f'{path}/{file}', file)
+    for file in tracked_files():
+        if os.path.exists(file):
+            os.remove(file)
+    for root, _, files in os.walk(path):
+        for name in files:
+            commit_file_path = os.path.join(root, name)
+            relative_path = os.path.relpath(commit_file_path, path)
+            dir_path = os.path.dirname(relative_path)
+            if dir_path:
+                os.makedirs(dir_path, exist_ok=True)
+            shutil.copy(commit_file_path, relative_path)
     print(f'Switched to commit {commit_user_id}')
 
 
@@ -162,3 +192,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
