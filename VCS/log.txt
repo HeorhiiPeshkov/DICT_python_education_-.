@@ -1,23 +1,11 @@
-commit 4a5f42c8927598a98559633ae9b08ef44a287c40
+commit 47047c22a5ffc245fd561c5d36f562c7ed993acb
 Author: George
 fileC added
 
-commit d8512b9d2b89f8ea440556d6c3b86a576e6c0a36
+commit 0d2dc6c91e83b92bea4754b04d53010a50c83aa6
 Author: George
 fileB added
 
 commit 1c338580ac9c81499a6ff9bd5f39f8b53856a82a
 Author: George
 fileA added
-
-commit 4574a1b0c45f75879dfa8f7a2e68ef567e5f2f52
-Author: George
-fileC.txt added
-
-commit d8512b9d2b89f8ea440556d6c3b86a576e6c0a36
-Author: George
-fileB.txt added
-
-commit 1c338580ac9c81499a6ff9bd5f39f8b53856a82a
-Author: George
-fileA.txt added

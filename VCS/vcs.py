@@ -9,6 +9,7 @@ CONFIG = VCS_DIR + '/config.txt'
 INDEX = VCS_DIR  + '/index.txt'
 LOG = VCS_DIR + '/log.txt'
 COMMITS_DIR = VCS_DIR + '/commits'
+LOG_HEAD = VCS_DIR + '/LOG_HEAD'
 
 
 commands = {
@@ -108,6 +109,7 @@ def commit(message):
             shutil.copy(file, commit_file_path)
         log_entry = f'commit {commit_user_id}\nAuthor: {username}\n{message}\n\n'
         write(LOG, log_entry + read(LOG))
+        write(LOG_HEAD, commit_user_id)
         print('Changes are saved')
     else:
         print('Commits already exist')
@@ -115,10 +117,25 @@ def commit(message):
 
 def show_log():
     log_text = read(LOG)
-    if log_text:
-        print(log_text)
+    if not log_text:
+        print("There's no log")
+        return
+    head_commit = read(LOG_HEAD)
+    if not head_commit:
+        print("There's no log")
+        return
+    log_entries = log_text.strip().split('\n\n')
+    filtered_logs = []
+    found = False
+    for entry in log_entries:
+        if entry.startswith(f'commit {head_commit}'):
+            found = True
+        if found:
+            filtered_logs.append(entry)
+    if filtered_logs:
+        print('\n\n'.join(filtered_logs))
     else:
-        "There are no logs"
+        print('HEAD commit not found in log')
 
 
 def checkout(commit_user_id):
@@ -138,6 +155,7 @@ def checkout(commit_user_id):
                 os.makedirs(dir_path, exist_ok=True)
             shutil.copy(commit_file_path, relative_path)
     print(f'Switched to commit {commit_user_id}')
+    write(LOG_HEAD, commit_user_id)
 
 
 def main():

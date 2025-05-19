@@ -6,8 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/commits/1c338580ac9c81499a6ff9bd5f39f8b53856a82a/fileA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/commits/4a5f42c8927598a98559633ae9b08ef44a287c40/fileA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/commits/4a5f42c8927598a98559633ae9b08ef44a287c40/fileB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/commits/4a5f42c8927598a98559633ae9b08ef44a287c40/fileC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/commits/d8512b9d2b89f8ea440556d6c3b86a576e6c0a36/fileA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/commits/d8512b9d2b89f8ea440556d6c3b86a576e6c0a36/fileB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VCS/log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/VCS/vcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/VCS/vcs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileB.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
