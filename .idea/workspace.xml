@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5cce4bc-678d-48ee-aa41-ea7043775bea" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/MusicBand/FindMusicBand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VCS/vcs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking_system/banking_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/banking_system/banking_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking_system/card.s3db" beforeDir="false" afterPath="$PROJECT_DIR$/banking_system/card.s3db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,45 +41,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in PytestMusicBandTree.py.executor": "Run",
-    "Python tests.Python tests in musicbandpytest.py.executor": "Run",
-    "Python tests.Python tests in pytestmusicband.py.executor": "Run",
-    "Python tests.Python tests in test_sort_music_band.py.executor": "Run",
-    "Python.Band.executor": "Run",
-    "Python.FindMusicBand.executor": "Run",
-    "Python.MusicBandMassive.executor": "Run",
-    "Python.MusicBandTree.executor": "Run",
-    "Python.aid.executor": "Run",
-    "Python.arithmetic_test.executor": "Run",
-    "Python.banking_system.executor": "Run",
-    "Python.credit_calculator.executor": "Run",
-    "Python.currency_exchange.executor": "Run",
-    "Python.currency_exhange.executor": "Run",
-    "Python.dominoes.executor": "Run",
-    "Python.findmusicband.executor": "Run",
-    "Python.markdown.executor": "Run",
-    "Python.markdown_editor.executor": "Run",
-    "Python.musicband.executor": "Run",
-    "Python.musicbandnode.executor": "Run",
-    "Python.musician.executor": "Run",
-    "Python.pract1.executor": "Run",
-    "Python.practica2.executor": "Run",
-    "Python.prs.executor": "Run",
-    "Python.pytestmusicband.executor": "Run",
-    "Python.rock_paper_scissors.executor": "Run",
-    "Python.simplified_markdown_editor.executor": "Run",
-    "Python.sort_music_band.executor": "Run",
-    "Python.tictactoe.executor": "Run",
-    "Python.uee.executor": "Run",
-    "Python.ueee.executor": "Run",
-    "Python.ueeee.executor": "Run",
-    "Python.web_page_scraper.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/banking__system"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in PytestMusicBandTree.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in musicbandpytest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in pytestmusicband.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_sort_music_band.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Band.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FindMusicBand.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MusicBandMassive.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MusicBandTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arithmetic_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.banking_system.executor&quot;: &quot;Run&quot;,
+    &quot;Python.credit_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.currency_exchange.executor&quot;: &quot;Run&quot;,
+    &quot;Python.currency_exhange.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dominoes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.findmusicband.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.musicband.executor&quot;: &quot;Run&quot;,
+    &quot;Python.musicbandnode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.musician.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pract1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practica2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pytestmusicband.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rock_paper_scissors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simplified_markdown_editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sort_music_band.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tictactoe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ueee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ueeee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vcs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_page_scraper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/banking__system&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\NewPythonProject\banking_system" />
